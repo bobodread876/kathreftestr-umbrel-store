@@ -4,7 +4,7 @@ name: Kathreftestr
 tagline: Mirror a livestream to Nostr (NIP-53), with Lightning zaps
 icon: https://raw.githubusercontent.com/bobodread876/kathreftestr-umbrel-store/main/kathreftestr/icon.svg
 category: media
-version: "0.1.0"
+version: "0.1.1"
 port: 3000
 description: >-
   Kathreftestr re-broadcasts a livestream onto Nostr. Paste a YouTube or Twitch
@@ -23,8 +23,12 @@ description: >-
   publicly reachable URL for this app (a reverse proxy or tunnel). Kathreftis
   (καθρέφτης) is Greek for "mirror."
 releaseNotes: >-
-  First release. Revived and consolidated to a single lean streaming path
-  (yt-dlp → ffmpeg → MediaMTX → NIP-53), packaged as one self-contained image.
+  0.1.1 — proper attribution (the live event uses the real YouTube title and the
+  per-stream identity is named after the source channel), the stream's secret
+  key is masked with a reveal toggle, a fixed HLS proxy so players actually play
+  (not just resolve the event), and clearer public-playback guidance. Set
+  HLS_BASE to a public HTTPS URL (e.g. a cloudflared tunnel) for off-network
+  viewers.
 developer: bobodread876
 website: https://bobodread876.github.io/kathreftestr/
 dependencies: []

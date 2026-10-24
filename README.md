@@ -1,4 +1,4 @@
-# Kathreftestr — Umbrel community app
+# Kathreftestr: Umbrel community app
 
 Mirror a YouTube/Twitch livestream onto Nostr (NIP-53) with Lightning zaps,
 self-hosted. Wraps [`ghcr.io/bobodread876/kathreftestr`](https://github.com/bobodread876/kathreftestr).
